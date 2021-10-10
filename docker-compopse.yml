@@ -28,7 +28,7 @@ services:
       MYSQL_USER: 'npm'
       MYSQL_PASSWORD: 'npm'
     volumes:
-      - mariadb-data/mysql:/var/lib/mysql
+      - mariadb-data:/var/lib/mysql
     networks:
       - opentechiz
 
