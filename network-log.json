@@ -1,0 +1,158 @@
+[
+  {
+      "Name": "opentechiz",
+      "Id": "ca08v7ci67wlm0b6bxq18jokh",
+      "Created": "2021-10-07T09:06:53.359434234+07:00",
+      "Scope": "swarm",
+      "Driver": "overlay",
+      "EnableIPv6": false,
+      "IPAM": {
+          "Driver": "default",
+          "Options": null,
+          "Config": [
+              {
+                  "Subnet": "10.0.1.0/24",
+                  "Gateway": "10.0.1.1"
+              }
+          ]
+      },
+      "Internal": false,
+      "Attachable": false,
+      "Ingress": false,
+      "ConfigFrom": {
+          "Network": ""
+      },
+      "ConfigOnly": false,
+      "Containers": {
+          "018ec0270215e7f4cca372000b1f04c4210703a720fd5c75c43f0ae53b40d7ea": {
+              "Name": "vsea-stack_web-game.1.6i9dwrx6zu6j8swdk0vlzbfct",
+              "EndpointID": "83a6fc3dd2de07774d8f7a5a7a760325881f490c660b67532dfd84a11deda989",
+              "MacAddress": "02:42:0a:00:01:56",
+              "IPv4Address": "10.0.1.86/24",
+              "IPv6Address": ""
+          },
+          "12932e169c759418fb04ed74e3994335fb5776584b179ff2bc39e256ac75e0dd": {
+              "Name": "vsea-stack_mary-tts.1.f30p648pkx7j705t64wfd6g3h",
+              "EndpointID": "4128e90abc2122454124dd37c408ba1f777d0fcc5da45a7d0a7fc4ad1240ad3f",
+              "MacAddress": "02:42:0a:00:01:10",
+              "IPv4Address": "10.0.1.16/24",
+              "IPv6Address": ""
+          },
+          "181b733e48a24fea2fd106c80d2a094d3f7201680761d0833567849b20d3f20a": {
+              "Name": "vsea-stack_mongo.1.gitwhctk8o2qlfpo0k2m3ng5f",
+              "EndpointID": "70709da9fedd8f16a5ef20d59ef6711c709dbefb83b5089fc2d2cf21548f0be6",
+              "MacAddress": "02:42:0a:00:01:06",
+              "IPv4Address": "10.0.1.6/24",
+              "IPv6Address": ""
+          },
+          "21544017b92ff9e1d8add1974c82e8a271b6c0e42fc1d14419487398633ca267": {
+              "Name": "bonoivu-stack_bonoivu-mongo.1.yufve3xl3gtl1usmrj4pucig5",
+              "EndpointID": "9662756f886e536258a9420eefae63c4fbe156f1102ea1bd7144715ef7feac14",
+              "MacAddress": "02:42:0a:00:01:15",
+              "IPv4Address": "10.0.1.21/24",
+              "IPv6Address": ""
+          },
+          "3f823fc2a3367aa26fccf8b8aff4c21b658d3f2b9f2a8f61073384daf170db21": {
+              "Name": "bonoivu-stack_bonoivu-rabbitmq.1.sjc0sjgxjk1qkva4111583vib",
+              "EndpointID": "b2063459ef3ada5533d066a581be2b48157c7261ab3c861fdc9e47167f6e3c3c",
+              "MacAddress": "02:42:0a:00:01:0a",
+              "IPv4Address": "10.0.1.10/24",
+              "IPv6Address": ""
+          },
+          "42f01fcf368c05eefa46dc716e2100c41067908a0556cbe020aa0c79ce6b30bd": {
+              "Name": "ssh_server.1.e15xnsvn20u793wtbz8515g7b",
+              "EndpointID": "41877a31a94a527be01be7e824bff5a8d2a2e60e0a0e9da9f8589d811bc554ec",
+              "MacAddress": "02:42:0a:00:01:08",
+              "IPv4Address": "10.0.1.8/24",
+              "IPv6Address": ""
+          },
+          "5eb3bcec5bba19ef7bed67834404ca0e1f36b1acaf1dd42d2503641b4a007602": {
+              "Name": "proxy_app.1.pjxh4fkqwoisd7dged4zxpemr",
+              "EndpointID": "b560fa0ba3c1ad9621bfa735e2251af7fee9acdf0128decc0174d3b487f48af4",
+              "MacAddress": "02:42:0a:00:01:c9",
+              "IPv4Address": "10.0.1.201/24",
+              "IPv6Address": ""
+          },
+          "680e03637a7f9b8eea03032580e8610a7a8457829aab0e7f7f31210c1214f55f": {
+              "Name": "bonoivu-stack_bonoivu-backend.1.w6z2thgxruci2u5tv3nd0tliv",
+              "EndpointID": "c9d5d6d690a2735d67b896e7ec9eef669c837c1c71d5ad494296315e5aac84d5",
+              "MacAddress": "02:42:0a:00:01:0f",
+              "IPv4Address": "10.0.1.15/24",
+              "IPv6Address": ""
+          },
+          "70b256b15206f5a75322877f26fd23c3aed4bcd44f614e1955e4f32695d32676": {
+              "Name": "bonoivu-stack_bonoivu-backoffice.1.b24aa6vn97vfbrdqtuw44rp9k",
+              "EndpointID": "2186389f3a11389fc3be2ba0bbeec8983af9094a187c2d7a78a05ab7ff33a0c3",
+              "MacAddress": "02:42:0a:00:01:47",
+              "IPv4Address": "10.0.1.71/24",
+              "IPv6Address": ""
+          },
+          "994f46f193c2c9f8a9be752a9cb77bc79c3a20be9f7ce12e9f4afa6dfa6f62a8": {
+              "Name": "proxy_db.1.68xpvxa9vtalnwycu1pbgm2kz",
+              "EndpointID": "51fa1969b35fc27436db17b2eac32703ad5e93e151a1dfc0681cd7cfce3d091d",
+              "MacAddress": "02:42:0a:00:01:cb",
+              "IPv4Address": "10.0.1.203/24",
+              "IPv6Address": ""
+          },
+          "a03bb2df7790d5fa8afdb4b0428b2a36dd77c30b059345605b464e72d08ac530": {
+              "Name": "vsea-stack_backoffice-backend.1.ubcat14uprcq8zao87s2zbtqg",
+              "EndpointID": "4a580d66bf14187f26bbb016c95fd7122e1a74c2994d2edb665ecc25e9009709",
+              "MacAddress": "02:42:0a:00:01:04",
+              "IPv4Address": "10.0.1.4/24",
+              "IPv6Address": ""
+          },
+          "a3dfe77186f85c40cbd0e4d26f7d8a49f904bb7749081892efc6ae2a71271eee": {
+              "Name": "global_glamira2-mysql8.1.pz6nbl85o1zsw9asdrjjdp4a0",
+              "EndpointID": "f16ab862610c628364a7e1501c0c72e4468fd0441f11d5bdfb620d049c6351c3",
+              "MacAddress": "02:42:0a:00:01:c7",
+              "IPv4Address": "10.0.1.199/24",
+              "IPv6Address": ""
+          },
+          "c54b3255dd0e48a849d3ce75d098f0edcf8a0cc4dafde9ba90388c23443c2f22": {
+              "Name": "vsea-stack_redis.1.mc6v8oaalvw2vo8tu1u1m6jha",
+              "EndpointID": "7c0e129e3308bb0dec65f908e63957d1fa049286046894a10f4979e781928ef5",
+              "MacAddress": "02:42:0a:00:01:0d",
+              "IPv4Address": "10.0.1.13/24",
+              "IPv6Address": ""
+          },
+          "c65619ff2c3fdeb22e000cd76ee8b49afd59d11848a56cfaed88068991780f3b": {
+              "Name": "global_glamira2-redis.1.igbpanoe8i5swmy9twu9ogyxe",
+              "EndpointID": "6198284f8be7f08abb412f4cb039277fd0fba71787f3a5a2b89e8f57b100e1ab",
+              "MacAddress": "02:42:0a:00:01:c5",
+              "IPv4Address": "10.0.1.197/24",
+              "IPv6Address": ""
+          },
+          "e43f39dc31553ddfd1bb96b71c821304c06866c8aa093cfc9598019ded62c299": {
+              "Name": "global_glamira2-phpmyadminmysql80.1.g16029gjv44i7psrtcxkp5ha7",
+              "EndpointID": "296295b8821055d4f5977c46a6dae5497252fdc8e9d06f747996fcba6c4f404e",
+              "MacAddress": "02:42:0a:00:01:c3",
+              "IPv4Address": "10.0.1.195/24",
+              "IPv6Address": ""
+          },
+          "e895e06d717d4db46a4536b0a1a57a60ad3819a84e538195288a979ee64d34d0": {
+              "Name": "vsea-stack_backoffice-frontend.1.pgxyrgciyxmggzjaa7thb4vzh",
+              "EndpointID": "6aea0b7ba3831f5529f4975580b457aeac7eb973fbdf5da99d84b5fbabfeb397",
+              "MacAddress": "02:42:0a:00:01:ab",
+              "IPv4Address": "10.0.1.171/24",
+              "IPv6Address": ""
+          },
+          "lb-opentechiz": {
+              "Name": "opentechiz-endpoint",
+              "EndpointID": "4d319d66058265046d7b59e7dba12cf6c1927d38225af1574ce801715382660e",
+              "MacAddress": "02:42:0a:00:01:1c",
+              "IPv4Address": "10.0.1.28/24",
+              "IPv6Address": ""
+          }
+      },
+      "Options": {
+          "com.docker.network.driver.overlay.vxlanid_list": "4097"
+      },
+      "Labels": {},
+      "Peers": [
+          {
+              "Name": "417a9bcb061f",
+              "IP": "192.168.1.4"
+          }
+      ]
+  }
+]
